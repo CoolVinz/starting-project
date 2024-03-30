@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   height: 100%;
 }
 
@@ -26,13 +29,6 @@ main img {
   height: 8rem;
   object-fit: cover;
   filter: drop-shadow(0 0 4px #f6c363);
-}
-
-h1 {
-  font-size: 3rem;
-  margin: 3rem auto;
-  color: #ede9f3;
-  font-family: 'Poppins', sans-serif;
 }
 
 p {
